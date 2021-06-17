@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.controller;
 
 import javax.validation.Valid;
 
@@ -18,6 +18,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.configuringTemplates.dtos.TemplateUpdateDto;
+import com.example.configuringTemplates.entity.Template;
+import com.example.configuringTemplates.models.AuthenticationRequest;
+import com.example.configuringTemplates.models.AuthenticationResponse;
+import com.example.configuringTemplates.service.MyUserDetailsService;
+import com.example.configuringTemplates.service.TemplateService;
+import com.example.configuringTemplates.utils.JwtUtil;
 
 
 

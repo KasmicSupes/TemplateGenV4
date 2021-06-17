@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.service;
 
 import java.util.ArrayList;
 

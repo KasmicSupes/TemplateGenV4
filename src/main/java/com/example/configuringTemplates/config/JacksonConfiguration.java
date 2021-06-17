@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.openapitools.jackson.nullable.JsonNullableModule;

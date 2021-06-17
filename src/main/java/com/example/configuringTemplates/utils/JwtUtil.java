@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

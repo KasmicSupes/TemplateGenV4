@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.models;
 
 public class AuthenticationResponse {
 

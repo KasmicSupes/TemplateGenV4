@@ -1,4 +1,4 @@
-package com.example.configuringTemplates; 
+package com.example.configuringTemplates.dtos; 
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import org.openapitools.jackson.nullable.JsonNullable;
 @SuppressWarnings("FieldMayBeFinal")
 public class TemplateUpdateDto {
 	private JsonNullable<Integer> id = JsonNullable.undefined();
-	private JsonNullable<String> organisation_id = JsonNullable.undefined();
+	private JsonNullable<String> organisationid = JsonNullable.undefined();
     private JsonNullable<String> type = JsonNullable.undefined();
     private JsonNullable<String> content = JsonNullable.undefined();
     private JsonNullable<ArrayList<String>> placeholders = JsonNullable.undefined();
@@ -14,8 +14,8 @@ public class TemplateUpdateDto {
 	public JsonNullable<Integer> getId() {
 		return id;
 	}
-	public JsonNullable<String> getOrganisation_id() {
-		return organisation_id;
+	public JsonNullable<String> getOrganisationid() {
+		return organisationid;
 	}
 	public JsonNullable<String> getType() {
 		return type;

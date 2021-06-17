@@ -1,8 +1,11 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.service;
 
 import java.util.ArrayList;
 
 import org.springframework.http.ResponseEntity;
+
+import com.example.configuringTemplates.dtos.TemplateUpdateDto;
+import com.example.configuringTemplates.entity.Template;
 
 public interface TemplateServiceI
 {

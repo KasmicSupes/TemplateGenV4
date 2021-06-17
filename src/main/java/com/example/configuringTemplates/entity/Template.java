@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.entity;
 
 
 import java.util.ArrayList;
@@ -15,14 +15,14 @@ import javax.persistence.UniqueConstraint;
 
 
 @Entity
-@Table(uniqueConstraints={@UniqueConstraint(columnNames = {"organisation_id","type"})})
+@Table(uniqueConstraints={@UniqueConstraint(columnNames = {"organisationid","type"})})
 public class Template {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
 	
-    private String organisation_id;
+    private String organisationid;
     private String type;
 	private String content;
 	private ArrayList<String> placeholders;
@@ -33,11 +33,11 @@ public class Template {
 		this.id = id;
 		return this;
 	}
-	public String getOrganisation_id() {
-		return organisation_id;
+	public String getOrganisationid() {
+		return organisationid;
 	}
-	public Template setOrganisation_id(String organisation_id) {
-		this.organisation_id = organisation_id;
+	public Template setOrganisationid(String organisationid) {
+		this.organisationid = organisationid;
 		return this;
 	}
 	public String getType() {

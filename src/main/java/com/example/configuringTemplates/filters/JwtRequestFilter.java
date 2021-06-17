@@ -1,4 +1,4 @@
-package com.example.configuringTemplates;
+package com.example.configuringTemplates.filters;
 import java.io.IOException;
 
 import javax.servlet.FilterChain;
@@ -13,6 +13,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.example.configuringTemplates.service.MyUserDetailsService;
+import com.example.configuringTemplates.utils.JwtUtil;
 
 
 
